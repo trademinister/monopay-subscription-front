@@ -1,0 +1,24 @@
+{
+  "name": "mono-subscription",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "trustedDependencies": [
+    "@shopify/plugin-cloudflare"
+  ],
+  "author": "Stanislav",
+  "private": true,
+  "workspaces": [
+    "extensions/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
