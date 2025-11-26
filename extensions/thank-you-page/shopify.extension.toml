@@ -54,4 +54,4 @@ api_access = true
 key = "mono_subscription_handle"
 type = "single_line_text_field"
 name = "ID шлюзу"
-description = "Назва кнопки для Підписки від Монобанку"
+description = "Ідентифікатор методу оплати"

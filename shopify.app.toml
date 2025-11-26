@@ -13,7 +13,10 @@ api_version = "2026-01"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_orders,write_orders,read_products,write_products,read_customers"
+scopes = "read_orders,read_products,write_orders"
 
 [auth]
-redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth", "https://cleaning-digital-shares-dig.trycloudflare.com/auth/callback" ]
+redirect_urls = [
+  "https://shopify.dev/apps/default-app-home/api/auth",
+  "https://lit-gym-formerly-upgrade.trycloudflare.com/auth/callback"
+]

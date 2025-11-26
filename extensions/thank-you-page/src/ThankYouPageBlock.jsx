@@ -44,6 +44,7 @@ function Extension() {
   //@ts-ignore
   const orderId = api.orderConfirmation.current.order.id.split("/").pop();
   // 3. Render a UI
+  console.log("Handle: ", api.selectedPaymentOptions.current)
   return (
     isBthVisible && (
       <>
