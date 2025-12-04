@@ -13,10 +13,12 @@ api_version = "2026-01"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_orders,read_products,write_orders"
+scopes = "read_orders,write_orders,read_products,write_products,read_customers,write_app_proxy"
+
+[app_proxy]
+url = "https://lindsay-figure-mill-informative.trycloudflare.com/mono"
+prefix = "apps"
+subpath = "mono"
 
 [auth]
-redirect_urls = [
-  "https://shopify.dev/apps/default-app-home/api/auth",
-  "https://lit-gym-formerly-upgrade.trycloudflare.com/auth/callback"
-]
+redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth", "https://lindsay-figure-mill-informative.trycloudflare.com/auth/callback" ]
